@@ -1,0 +1,78 @@
+{
+  "name": "assemble-pager",
+  "description": "Assemble plugin that adds prev/next pager information to the context.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-pager",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "assemble/assemble-pager",
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-pager/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "is-valid-app": "^0.2.1",
+    "plugin-error": "^0.1.2",
+    "relative": "^3.0.2",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "assemble": "^0.22.0",
+    "assemble-fs": "^1.0.0",
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "boilerplate",
+    "build",
+    "cli",
+    "cli-app",
+    "command-line",
+    "create",
+    "dev",
+    "development",
+    "framework",
+    "front",
+    "frontend",
+    "pager",
+    "paginate",
+    "pagination",
+    "paging",
+    "plugin",
+    "project",
+    "projects",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "template",
+    "templates",
+    "webapp",
+    "yeoman",
+    "yo"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
